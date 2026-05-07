@@ -49,7 +49,7 @@ jobs:
             --windowed `
             --name "locales" `
             --add-data "src/resources_rc.py;." `
-            src/locales.py src/sysinfo.py src/theme
+            src/locales.py src/sysinfo.py src/theme.py
 
       - name: Package ZIP
         shell: pwsh
