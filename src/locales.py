@@ -42,6 +42,7 @@ from PyQt5.QtWidgets import (
 # resources suff like icons, ...
 # -----------------------------------------------------------------------
 import resources_rc
+
 from theme   import *
 from sysinfo import SystemInfo
 
