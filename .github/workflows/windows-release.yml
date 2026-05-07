@@ -47,7 +47,7 @@ jobs:
             --noconfirm `
             --clean `
             --windowed `
-            --name "locales" `
+            --name "Locales" `
             --add-data "src/resources_rc.py;." `
             src/locales.py src/sysinfo.py src/theme.py
 
@@ -55,7 +55,7 @@ jobs:
         shell: pwsh
         run: |
           Compress-Archive `
-            -Path "dist/IIS-Setup/*" `
+            -Path "dist/Locales/*" `
             -DestinationPath "Locales-${{ inputs.tag }}-windows.zip" `
             -Force
 
